@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzICJp9aBgeKtQ6MwGDLNJs9PXA2r0xav6wA&usqp=CAU);
+    background-size: 100% 100%;
+    color: royalblue;
+  }
+  
+  nav {
+    text-align: right;
+    flex-wrap: wrap;
+    background-color: slategray;
+    font-weight: bolder;
+    height: 50px;
+    border-bottom: 1px solid midnightblue;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+  }
+
+    nav> ul> li {
+    list-style: none;
+    justify-content: space-between;
+    float: right;
+  }
+
+    nav> ul> li> a {
+    padding: 15px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color:midnightblue;
+  }
+
+    nav> ul> li> a:hover {
+    background-color: grey;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  aside {
+    flex-shrink: 15%;
+    padding: 20px;
+    flex-wrap: wrap;
+    text-align: right;
+    font-size: 28px;
+  }
+  main> section {
+    background: inherit;
+  }
+  .AboutMe {
+    border-right: 2px solid midnightblue;
+    height: 350px;
+    background: inherit;
+  }
+
+  .Work {
+    margin-top: 20px;
+    border-right: 2px solid midnightblue;
+    height: 1160px;
+    background: inherit;
+  }
+  .Contact {
+    margin-top: 20px;
+    border-right: 2px solid midnightblue;
+    height: 175px;
+    background: inherit;
+  }
+  .ContactInfo {
+    margin: 60px 50px 0px -55px;
+    width: 105%;
+    padding: 20px;
+    height: 100px;
+    justify-content: space-between;
+  }
+  .ContactInfo> ul {
+    list-style: none;
+  }
+  .ContactInfo> ul> li {
+    display: inline-block;
+    padding: 15px;
+    text-underline-offset: 3px;
+    text-decoration: underline solid midnightblue 3px;
+    color:midnightblue;
+  }
+  section {
+    flex: 85%;
+    padding: 20px;
+  }
+  
+
+  .Project1 {
+    background-color: skyblue;
+    width: 100%;
+    padding: 0px;
+    border: 3px solid midnightblue;
+    max-width: 100%; 
+    height: 350px;
+    background-image: url(https://www.123calendars.com/images/2021-calendar/Printable-2021-Calendar.jpg);
+    background-size: 50% 100%;
+  }
+  
+  .Project2 {
+    background-color: skyblue;
+    width: 50%;
+    padding: 0px;
+    border: 3px solid midnightblue;
+    max-width: 50%; 
+    height: 286px;
+    background-image: url(https://73v3u36iopz178i0z3a33g7d-wpengine.netdna-ssl.com/wp-content/uploads/2014/07/recording-instructor1-670x670.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .BoxRow {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ProjectTitle {
+    padding: 7px;
+    color: Skyblue;
+    font-weight: bolder;
+    font-size: 14px;
+    text-underline-offset: 2px;
+    text-align: left;
+    color:midnightblue;
+    width: fit-content;
+    border-right: 3px solid  midnightblue;
+    border-bottom: 3px solid  midnightblue;
+    z-index: 1;
+    background-color: skyblue;
+    }
+  .ProjectTitle h2 {
+    font-weight: lighter;
+    font-size: 10px;
+    flex-shrink: 50%;
+  }
+  .Project3 {
+    background-color: skyblue;
+    width: 50%;
+    padding: 0px;
+    border: 3px solid midnightblue;
+    max-width: 100%; 
+    height: 286px;
+    overflow: auto;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/9/96/A_commonly_used_style_for_many_microsoft_games%2C_originating_with_Microsoft_Minesweeper.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    }
+  .Project4 {
+    background-color: skyblue;
+    width: 33.3%;
+    padding: 0px;
+    border: 3px solid midnightblue;
+    max-width: 100%; 
+    height: 225px;
+    overflow: auto;
+    background-image: url(https://lh3.googleusercontent.com/rJq85TBq35m7FIl8G7UOsv81ZNG57vB2nsAJJCV_Fu4fyVHd3eNd-opE-EGXQHQxh8pPDeADO5noUzxgTGBDkXyXYw=w640-h400-e365-rj-sc0x00ffffff);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .Project5 {
+    background-color: skyblue;
+    width: 33.3%;
+    padding: 0px;
+    border: 3px solid midnightblue;
+    max-width: 100%; 
+    height: 225px;
+    overflow: auto;
+    background-image: url(https://www.technobuffalo.com/sites/technobuffalo.com/files/field/image/2020/01/helect-standard-fuction-desktop-calculator-render.jpg?itok=XESP6Efo);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .Project6 {
+    background-color: skyblue;
+    width: 33.3%;
+    padding: 0px;
+    border: 3px solid midnightblue;
+    max-width: 100%; 
+    height: 225px;
+    overflow: auto;
+    opacity: 50%;
+  }
+  .Project7 {
+    background-color: skyblue;
+    width: 25%;
+    padding: 0px;
+    border: 3px solid midnightblue;
+    max-width: 100%; 
+    height: 175px;
+    overflow: auto;
+    opacity: 50%;
+  }
+  .Project8 {
+    background-color: skyblue;
+    width: 25%;
+    padding: 0px;
+    border: 3px solid midnightblue;
+    max-width: 100%; 
+    height: 175px;
+    overflow: auto;
+    opacity: 50%;
+  }
+  .Project9 {
+    background-color: skyblue;
+    width: 25%;
+    padding: 0px;
+    border: 3px solid midnightblue;
+    max-width: 100%; 
+    height: 175px;
+    overflow: auto;
+    opacity: 50%;
+  }
+  .Project10 {
+    background-color: skyblue;
+    width: 25%;
+    padding: 0px;
+    border: 3px solid midnightblue;
+    max-width: 100%; 
+    height: 175px;
+    overflow: auto;
+    opacity: 50%;
+  }
+  .Projects {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    max-width: 100%; 
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction:column;
+    overflow: auto;
+    min-width: 790px;
+    background: inherit;
+  }
+  .Project1:hover {
+    opacity: 75%;
+  }
+  .Project2:hover {
+    opacity: 75%;
+  }
+  .Project3:hover {
+    opacity: 75%;
+  }
+  .Project4:hover {
+    opacity: 75%;
+  }
+  .Project5:hover {
+    opacity: 75%;
+  }
+  #Intro {
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 55px;
+  }
+  #Name {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 0px;
+  display: block;
+  background-color: midnightblue;
+  font-weight: bold;
+  color: white;
+  padding: 3 px;
+  }
+  #AboutMeP {
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  float: left;
+  width: 66.3%;
+  padding: 0px;
+  }
+  #ProfilePic {
+    background-color: skyblue;
+    width: 33.3%;
+    padding: 0px;
+    border: 3px solid midnightblue;
+    max-width: 33.3%; 
+    height: 330px;
+    overflow: hidden;
+    right: 5px;
+    flex-wrap: wrap;
+    position: relative;
+    float: right;
+    margin-bottom: 35px;
+    resize: none;
+  }
