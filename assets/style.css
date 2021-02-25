@@ -292,7 +292,10 @@
   }
 /* Force-formatting when webpage size reaches a certain width */
   @media screen and (max-width: 815px) {
-  .Project1 {
+  aside {
+    font-size: 16px;
+  }
+    .Project1 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -307,7 +310,7 @@
     margin-bottom: 50px;
   }
   .AboutMe {
-    height: 500px;
+    height: 615px;
   }
   .Contact {
     margin-top: 15px;
