@@ -13,3 +13,22 @@ Consider different layout when all components are completed.</br>
 Finish projects to come to life and add more ideas.</br>
 Upon finishing projects asure that upon clicking the project it redirects users onto a new tab to view the project.</br>
 Add your resume and upon clicking the nav item it redirects you to a new tab to view the pdf of my resume.</br>
+
+-----Deployment-----
+Deployment for grading.
+New changes include:
+media screen
+Fixing the flex of the webpage to asure compalibility with different screen sizes.
+Added about me details.
+
+Features to come in Future Update:</br>
+New Profile Picture</br>
+More eye-appealing colors/details</br>
+Consider different layout when all components are completed.</br>
+Finish projects to come to life and add more ideas.</br>
+Upon finishing projects asure that upon clicking the project it redirects users onto a new tab to view the project.</br>
+Add your resume and upon clicking the nav item it redirects you to a new tab to view the pdf of my resume.</br>
+Removal of alert when projects are available for showcasing. </br>
+Make the portfolio "cool". </br>
+
+GITHUB URL:
