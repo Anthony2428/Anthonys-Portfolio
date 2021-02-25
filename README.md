@@ -31,4 +31,4 @@ Add your resume and upon clicking the nav item it redirects you to a new tab to 
 Removal of alert when projects are available for showcasing. </br>
 Make the portfolio "cool". </br>
 
-GITHUB URL:
+GITHUB URL: https://anthony2428.github.io/Anthonys-Portfolio/
