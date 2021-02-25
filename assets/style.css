@@ -58,6 +58,7 @@
     background: inherit;
     margin-top: 90px;
   }
+  /* Formatting the left hand side of page */
   .AboutMe {
     border-right: 2px solid midnightblue;
     height: 385px;
@@ -76,6 +77,7 @@
     height: 175px;
     background: inherit;
   }
+  /* Formatting my Phone #, Email, And LinkedIn */
   .ContactInfo {
     margin-top: 55px;
     text-align: left;
@@ -99,7 +101,7 @@
     flex: 75%;
     padding: 20px;
   }
-
+/* Formatting of the boxes for showcasing my Projects */
   .Project1 {
     background-color: skyblue;
     width: 100%;
@@ -127,7 +129,7 @@
     display: flex;
     justify-content: space-between;
   }
-
+/* Formats the title of each project */
   .ProjectTitle {
     padding: 7px;
     font-weight: bolder;
@@ -237,6 +239,7 @@
     overflow: auto;
     background: inherit;
   }
+  /* Changes the opacity upon hovering the mouse over the project */
   .Project1:hover {
     opacity: 100%;
   }
@@ -252,6 +255,7 @@
   .Project5:hover {
     opacity: 100%;
   }
+  /* Formatting my Picture and About Me paragraph */
   #Name {
   text-align: center;
   font-size: 18px;
@@ -286,7 +290,7 @@
     resize: none;
     margin-bottom: 5px;
   }
-
+/* Force-formatting when webpage size reaches a certain width */
   @media screen and (max-width: 815px) {
   .Project1 {
     background-repeat: no-repeat;
