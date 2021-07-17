@@ -170,7 +170,7 @@
     border: 3px solid midnightblue;
     height: 225px;
     overflow: auto;
-    background-image: url(https://lh3.googleusercontent.com/rJq85TBq35m7FIl8G7UOsv81ZNG57vB2nsAJJCV_Fu4fyVHd3eNd-opE-EGXQHQxh8pPDeADO5noUzxgTGBDkXyXYw=w640-h400-e365-rj-sc0x00ffffff);
+    background-image: url('./images/Forecast\ Dashboard.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity: 75%;
@@ -182,7 +182,7 @@
     border: 3px solid midnightblue;
     height: 225px;
     overflow: auto;
-    background-image: url(https://www.technobuffalo.com/sites/technobuffalo.com/files/field/image/2020/01/helect-standard-fuction-desktop-calculator-render.jpg?itok=XESP6Efo);
+    background-image: url('./images/Employee\ Tracker.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity: 75%;
