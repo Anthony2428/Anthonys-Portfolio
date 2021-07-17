@@ -1,5 +1,4 @@
-var input = document.querySelector('.Projects');
 
-input.addEventListener('click', function(event){
+const notReady = () => {
     alert('This Project isn\'t ready yet.');
-})
+};

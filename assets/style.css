@@ -108,25 +108,28 @@
     padding: 0px;
     border: 3px solid midnightblue;
     height: 350px;
-    background-image: url(https://www.123calendars.com/images/2021-calendar/Printable-2021-Calendar.jpg);
+    background-image: url('./images//Sportsbox.png');
     background-size: 50% 100%;
     opacity: 75%;
   }
 
   .Project2 {
     background-color: skyblue;
-    width: 50%;
+    width: 100%;
     padding: 0px;
     border: 3px solid midnightblue;
     height: 350px;
-    background-image: url(https://73v3u36iopz178i0z3a33g7d-wpengine.netdna-ssl.com/wp-content/uploads/2014/07/recording-instructor1-670x670.jpg);
+    background-image: url('./images/Note\ Taker.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity: 75%;
   }
-
+  .linkToProject {
+    width: 100%;
+  }
   .BoxRow {
     display: flex;
+    width: 100%;
     justify-content: space-between;
   }
 /* Formats the title of each project */
@@ -150,19 +153,19 @@
   }
   .Project3 {
     background-color: skyblue;
-    width: 50%;
+    width: 100%;
     padding: 0px;
     border: 3px solid midnightblue;
     height: 350px;
     overflow: auto;
-    background-image: url(https://upload.wikimedia.org/wikipedia/en/9/96/A_commonly_used_style_for_many_microsoft_games%2C_originating_with_Microsoft_Minesweeper.png);
+    background-image: url('./images/Tech-Blog-Screenshot.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity: 75%
     }
   .Project4 {
     background-color: skyblue;
-    width: 33.3%;
+    width: 100%;
     padding: 0px;
     border: 3px solid midnightblue;
     height: 225px;
@@ -174,7 +177,7 @@
   }
   .Project5 {
     background-color: skyblue;
-    width: 33.3%;
+    width: 100%;
     padding: 0px;
     border: 3px solid midnightblue;
     height: 225px;
@@ -186,7 +189,7 @@
   }
   .Project6 {
     background-color: skyblue;
-    width: 33.3%;
+    width: 100%;
     padding: 0px;
     border: 3px solid midnightblue;
     height: 225px;
@@ -195,7 +198,7 @@
   }
   .Project7 {
     background-color: skyblue;
-    width: 25%;
+    width: 100%;
     padding: 0px;
     border: 3px solid midnightblue;
     height: 175px;
@@ -204,7 +207,7 @@
   }
   .Project8 {
     background-color: skyblue;
-    width: 25%;
+    width: 100%;
     padding: 0px;
     border: 3px solid midnightblue;
     height: 175px;
@@ -213,7 +216,7 @@
   }
   .Project9 {
     background-color: skyblue;
-    width: 25%;
+    width: 100%;
     padding: 0px;
     border: 3px solid midnightblue;
     height: 175px;
@@ -222,7 +225,7 @@
   }
   .Project10 {
     background-color: skyblue;
-    width: 25%;
+    width: 100%;
     padding: 0px;
     border: 3px solid midnightblue;
     height: 175px;
@@ -310,7 +313,7 @@
     margin-bottom: 50px;
   }
   .AboutMe {
-    height: 615px;
+    height: 645px;
   }
   .Contact {
     margin-top: 15px;
